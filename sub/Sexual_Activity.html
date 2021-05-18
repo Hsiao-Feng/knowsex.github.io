@@ -33,6 +33,20 @@
             </a>
         </div>
     </div>
+    <script>
+        $(document).ready(function(){
+            $("[id^='int_']").hide();
+            $("div.cover").click(function(){
+                $(".seen").css("filter", "blur(0)");
+                $("div.cover").fadeOut("fast");
+            });
+            $("button#inctro_1").click(function(){$("div#int_1").fadeToggle()});
+            $("button#inctro_2").click(function(){$("div#int_2").fadeToggle()});
+            $("button#inctro_3").click(function(){$("div#int_3").fadeToggle()});
+            $("button#inctro_4").click(function(){$("div#int_4").fadeToggle()});
+            $("button#inctro_5").click(function(){$("div#int_5").fadeToggle()});
+        })
+    </script>
     
     
 	<div class="header-thumb">
