@@ -163,3 +163,7 @@ small{
 .ef{background-color: #c6e0b4;}
 .wa{background-color: #fff2cc;}
 .da{background-color: #f4b084;}
+
+video{
+    width: 100%;
+}
