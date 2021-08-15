@@ -14,11 +14,10 @@
 	<script src="//lib.sinaapp.com/js/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204367285-1"></script>
-    <script>
+     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-204367285-1');
     </script>
 </head>
@@ -43,19 +42,20 @@
     </div>
     <script>
         $(document).ready(function(){
-            $("[id^='int_']").hide();
+            //$("[id^='int_']").hide();
             $("div.cover").click(function(){
                 $(".seen").css("filter", "blur(0)");
                 $("div.cover").fadeOut("fast");
             });
+            /*
             $("button#inctro_1").click(function(){$("div#int_1").fadeToggle()});
             $("button#inctro_2").click(function(){$("div#int_2").fadeToggle()});
             $("button#inctro_3").click(function(){$("div#int_3").fadeToggle()});
             $("button#inctro_4").click(function(){$("div#int_4").fadeToggle()});
             $("button#inctro_5").click(function(){$("div#int_5").fadeToggle()});
+            */
         })
     </script>
-    
     
     <div class="main">
         <div class="header-thumb">
@@ -92,12 +92,14 @@
             </a>
         </div>
         <div class="header-thumb">
-            <a href="sub/extended-reading/">
-                <div class="header-img ex-rd"></div>
+            <a href="sub/extended-reading/contraception-and-prevention-of-STD.html">
+                <div class="header-img contraceptive"></div><!--ex-rd-->
                 <div class="header-cover">
                     <div class="header-title">
-                        <h1>扩展阅读</h1>
-                        <p>Extended Reading</p>
+                        <h1>避孕与预防性传播疾病</h1>
+						<p>Contraceptive And Prevention of STD</p>
+                        <!-- <h1>扩展阅读</h1>
+                        <p>Extended Reading</p> -->
                     </div>			
                 </div>
             </a>
@@ -113,6 +115,7 @@
                 </div>
             </a>
         </div>
+        
         <blockquote>
             <p>在向青少年传授性卫生知识时，男女同学要一道听，不要分开……</p>
             <p>不要试图回避，更不要搞得神秘化。</p>

@@ -14,11 +14,10 @@
 	<script src="//lib.sinaapp.com/js/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204367285-1"></script>
-    <script>
+     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-204367285-1');
     </script>
 </head>
@@ -43,19 +42,20 @@
     </div>
     <script>
         $(document).ready(function(){
-            $("[id^='int_']").hide();
+            //$("[id^='int_']").hide();
             $("div.cover").click(function(){
                 $(".seen").css("filter", "blur(0)");
                 $("div.cover").fadeOut("fast");
             });
+            /*
             $("button#inctro_1").click(function(){$("div#int_1").fadeToggle()});
             $("button#inctro_2").click(function(){$("div#int_2").fadeToggle()});
             $("button#inctro_3").click(function(){$("div#int_3").fadeToggle()});
             $("button#inctro_4").click(function(){$("div#int_4").fadeToggle()});
             $("button#inctro_5").click(function(){$("div#int_5").fadeToggle()});
+            */
         })
     </script>
-    
     
 	<div class="header-thumb">
 		<div class="header-img no2"></div>
@@ -84,12 +84,13 @@
 		<p>
 			进行性行为的安全风险主要有：<strong>意外怀孕</strong>、<strong>性传染病感染</strong>、<strong>身体伤害</strong>和<strong>精神伤害</strong>。
 		</p>
-		<button type="button" class="btn btn-default" id="inctro_1">详细 ▼</button>
-		
-		<div id="int_1">
+		<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#hiden_1" aria-expanded="false" aria-controls="hide_1">详细 ▼</button>
+		<div class="collapse" id="hiden_1">
+			<hr>
 			<p>若在性交时阴茎射出的精液射入女性阴道内，则有可能导致女性怀孕。此外，精液与外阴的接触也有几率使女性<strong>怀孕</strong>。男性在受到性刺激时会由尿道口分泌透明无色而略粘稠的预射精液（又作尿道球腺液，被广泛误认为是前列腺液），当中也含有少量精子，因此亦可有几率导致女性怀孕。</p>
 			<p>性传染病可由皮肤、体液和粘膜的接触传染，患者有时外表并无症状。 </p>
 			<p>使用避孕套（又叫做安全套）是有效且便捷地防止意外怀孕、隔绝一些性传染病感染的方法，也是较为广泛应用的方法，市售避孕套一般是男性使用（套于男性阴茎），在药店或超市可以买到。作为一种医疗用品，在使用前，请仔细阅读避孕套盒内的说明书或说明文字，有较详细的使用方法和用途介绍。关于避孕套的使用步骤，可参考WikiHow的文章：</p>
+			<hr>
 		</div>
 		<p><a class="btn btn-default" href="https://zh.wikihow.com/%E4%BD%BF%E7%94%A8%E9%81%BF%E5%AD%95%E5%A5%97"  role="button">如何使用避孕套</a></p>
 		<p>为了减少风险，与他人发生性行为时，您应当了解必要的避孕与预防性传播疾病的知识。您可以阅读本站扩展阅读部分的文章<a href="/sub/extended-reading/contraception-and-prevention-of-STD.html">《避孕与预防性传播疾病》</a>了解详情。</p>
@@ -106,19 +107,22 @@
 		<br><small>图 1 奥地利画家古斯塔夫·克林姆的画作《张开大腿的女人》</small>
 		<p>自慰，也作手淫，是指对自我性器官进行性刺激以达到<strong>高潮</strong>和快感的性行为。 </p><p>
 	私下地自慰并不可耻，是一种正常而自然的行为。 </p>
-			<button type="button" class="btn btn-default" id="inctro_2">详细 ▼</button>
-			<div id="int_2">
+		<button type="button" class="btn btn-default" data-toggle="collapse" data-target="#hiden_2" aria-expanded="false" aria-controls="hide_2">详细 ▼</button>
+		<div class="collapse" id="hiden_2">
+			<hr>
 			<p>有许多言论认为自慰会影响心理和生理健康，但医学界普遍认为自慰是一种正常的行为。《默沙东诊疗手册》认为，只有 </p>
-		<ul>
-			<li>当自慰抑制了伴侣之间的性行为 </li>
-			<li>公开场合进行 </li>
-			<li>成为<strong>强迫性冲动</strong>行为造成困扰时 </li>
-		</ul>
-		<p>才被认为是不正常的，<em>大约有97％的男性及80％的女性进行过自慰</em>。 </p><p>
-			请注意，自慰行为仅限于在私下场合进行，<em>在公开场合进行自慰不仅违背公德，且在许多国家或地区是违反法律的行为 </em><sup>[<a href="#note" id="light" target="_self">注</a>]</sup>。</p><p>
-			合理的自慰频率有助于身心健康。“合理”是指在自身可承受、认为对日常生活不会造成太大影响的频率。<strong>过度自慰</strong>会造成一些身体不适和健康问题。 </p><p>
-			一般地，自慰依靠手即可完成。借助性玩具或其他物品等也可增加舒适度，但是使用不当会造成风险。 </p>
+			<ul>
+				<li>当自慰抑制了伴侣之间的性行为 </li>
+				<li>公开场合进行 </li>
+				<li>成为<strong>强迫性冲动</strong>行为造成困扰时 </li>
+			</ul>
+			<p>才被认为是不正常的，<em>大约有97％的男性及80％的女性进行过自慰</em>。 </p>
+			<p>请注意，自慰行为仅限于在私下场合进行，<em>在公开场合进行自慰不仅违背公德，且在许多国家或地区是违反法律的行为 </em><sup>[<a href="#note" id="light" target="_self">注</a>]</sup>。</p>
+			<p>合理的自慰频率有助于身心健康。“合理”是指在自身可承受、认为对日常生活不会造成太大影响的频率。<strong>过度自慰</strong>会造成一些身体不适和健康问题。 </p>
+			<p>一般地，自慰依靠手即可完成。借助性玩具或其他物品等也可增加舒适度，但是使用不当会造成风险。 </p>
+			<hr>
 		</div>
+		
 		<h3>女性自慰简述</h3>
 		
 		<p>女性的自慰一般以摩擦<strong>阴蒂</strong>、<strong>小阴唇</strong>附近进行，以及用手指插入<strong>阴道</strong>，进行对前壁的刺激。在第一次插入阴道时可能会破坏<strong>处女膜</strong>。处女膜一般环绕在阴道口周围，中央开口因人而异大小、形状不一，若不想损伤处女膜，应当注意力度。
